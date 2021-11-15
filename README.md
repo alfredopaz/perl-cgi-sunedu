@@ -5,7 +5,17 @@ En esta tarea usted pondrá en práctica todo lo aprendido en el curso, para res
 - `index.pl`, este archivo generar el código HTML del formulario. La intensión de que haya un CGI que genere el formulario, es para que el formulario muestre opciones disponibles a partir de un análisis previo del conjunto de datos.
 - `css/mystyle.css`, aquí deberá incluir el estilo de su página, este estilo no tiene que ser complejo.
 - `licenciamiento.csv`, archivo con codificación UTF-8, que contiene los datos sobre los que se hará la consulta.
-|CODIGO\_ENTIDAD|NOMBRE|TIPO\_GESTION|ESTADO\_LICENCIAMIENTO|PERIODO\_LICENCIAMIENTO|DEPARTAMENTO\_LOCAL|PROVINCIA\_LOCAL|DISTRITO\_LOCAL|LATITUD\_UBICACION|LONGITUD\_UBICACION|
+    - CODIGO\_ENTIDAD, código númerico, no relevante para esta práctica.
+    - NOMBRE, nombre de la universidad.
+    - TIPO\_GESTION, puede ser PRIVADO o PÚBLICO
+    - ESTADO\_LICENCIAMIENTO, puede ser LICENCIA OTORGADA, DENEGADA ó con OBSERVACIONES
+    - PERIODO\_LICENCIAMIENTO, número de años del licenciamiento.
+    - DEPARTAMENTO\_LOCAL, nombre del departamento o región.
+    - PROVINCIA\_LOCAL, nombre de la provincia.
+    - DISTRITO\_LOCAL, nombre del distrito.
+    - LATITUD\_UBICACION, valor numérico no relevante para esta práctica.
+    - LONGITUD\_UBICACION, valor numérmico no relevante para esta práctica.
+    
 - `README.md`, estas instrucciones.
 
 ## Etapas
